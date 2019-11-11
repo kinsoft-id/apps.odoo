@@ -16,9 +16,9 @@ Credits
 Authors
 ~~~~~~~
 
+* Kinsoft Indonesia
 * Eficent
 * Serpent CS
-* Kikin
 
 Contributors
 ~~~~~~~~~~~~
