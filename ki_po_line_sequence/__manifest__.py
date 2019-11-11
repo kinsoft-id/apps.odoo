@@ -6,10 +6,10 @@
     "name": "Purchase Order Line Sequence",
     "summary": "Propagates PO line sequence.",
     "version": "12.0.0",
-    "author": "Eficent, "
+    "author": "Kinsoft Indonesia, "
+			  "Eficent, "
               "Serpent CS, "
-              "Odoo Community Association (OCA), "
-              "Kinsoft Indonesia",
+              "Odoo Community Association (OCA), ",
     "category": "Purchase",
     "website": "kinsoft.id",
     "license": "AGPL-3",
