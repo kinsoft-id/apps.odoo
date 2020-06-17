@@ -9,7 +9,7 @@
     'license': 'AGPL-3',
     'author': "Kikin Kusumah@Kinsoft Indonesia, " 
 			  "ForgeFlow, Odoo Community Association (OCA), ",
-    'website': "kinsoft.id, "
+    'website': "kinsoft.id,"
 			   "https://github.com/OCA/account-financial-tools, ", 
     'installable': True,
     'depends': [
