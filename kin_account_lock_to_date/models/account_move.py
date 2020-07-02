@@ -30,13 +30,15 @@ class AccountMove(models.Model):
             if lock_to_date and move.date >= lock_to_date:
                 if self.user_has_groups('account.group_account_manager'):
                     message = _("You cannot add/modify entries after and "
-                                "inclusive of the lock to date %s") % (
-                        lock_to_date)
+                                "inclusive of the lock to date %s"
+								"Move date %s. ") % (
+                        lock_to_date, move.date)
                 else:
                     message = _("You cannot add/modify entries after and "
                                 "inclusive of the lock to date %s. "
                                 "Check the company settings or ask someone "
-                                "with the 'Adviser' role") % (
-                        lock_to_date)
+                                "with the 'Adviser' role"
+								"Move date %s. ") % (
+                        lock_to_date, move.date)
                 raise UserError(message)
         return res
