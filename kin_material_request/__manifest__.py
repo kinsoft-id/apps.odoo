@@ -9,6 +9,7 @@
     "materials and/or external services and keep track of such "
     "requirements.",
     "category": "Purchase Management",
+    "website": "kinsoft.id",
     "depends": ["purchase", "product", "purchase_stock"],
     "data": [
         "security/purchase_request.xml",
