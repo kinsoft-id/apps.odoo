@@ -40,4 +40,5 @@ Allow to see the purchase order line
     'installable': True,
     'application': False,
     'auto_install': False,
+    'images': ['static/description/main_screen.png'], 
 }
