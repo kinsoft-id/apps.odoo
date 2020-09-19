@@ -36,6 +36,7 @@ Allow to see the purchase order line
     'data': [
         'views/purchase.xml'
     ],
+    'license': 'AGPL-3',
     'installable': True,
     'application': False,
     'auto_install': False,
