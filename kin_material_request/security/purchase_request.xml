@@ -16,7 +16,7 @@
         <field name="name">Material Request Manager</field>
         <field
             name="implied_ids"
-            eval="[(4, ref('purchase_request.group_purchase_request_user'))]"
+            eval="[(4, ref('kin_purchase_request.group_purchase_request_user'))]"
         />
         <field name="category_id" ref="module_category_purchase_request" />
     </record>
