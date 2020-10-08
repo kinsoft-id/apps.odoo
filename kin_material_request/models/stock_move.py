@@ -64,7 +64,7 @@ class StockMove(models.Model):
                         "user_id": pr_line.product_id.responsible_id.id,
                         "res_id": pr_line.request_id.id,
                         "res_model_id": self.env.ref(
-                            "purchase_request.model_purchase_request"
+                            "kin_material_request.model_purchase_request"
                         ).id,
                     }
                 )

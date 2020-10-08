@@ -16,7 +16,7 @@
         <field name="name">Material Request Manager</field>
         <field
             name="implied_ids"
-            eval="[(4, ref('kin_purchase_request.group_purchase_request_user'))]"
+            eval="[(4, ref('kin_material_request.group_purchase_request_user'))]"
         />
         <field name="category_id" ref="module_category_purchase_request" />
     </record>
@@ -28,14 +28,14 @@
             ('company_id','child_of',[user.company_id.id])]</field>
     </record>
     <record model="ir.rule" id="purchase_request_line_comp_rule">
-        <field name="name">Material Request Line multi-company</field>
+        <field name="name">Purchase Request Line multi-company</field>
         <field name="model_id" ref="model_purchase_request_line" />
         <field name="global" eval="True" />
         <field name="domain_force">['|',('company_id','=',False),
             ('company_id','child_of',[user.company_id.id])]</field>
     </record>
     <record id="purchase_request_followers_rule" model="ir.rule">
-        <field name="name">Follow Material Request</field>
+        <field name="name">Follow Purchase Request</field>
         <field name="model_id" ref="model_purchase_request" />
         <field name="groups" eval="[(6,0, [ref('group_purchase_request_user')])]" />
         <field name="perm_read" eval="True" />

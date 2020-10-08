@@ -82,7 +82,7 @@ class PurchaseRequest(models.Model):
             (
                 "groups_id",
                 "in",
-                self.env.ref("purchase_request.group_purchase_request_manager").id,
+                self.env.ref("kin_material_request.group_purchase_request_manager").id,
             )
         ],
     )
@@ -183,14 +183,14 @@ class PurchaseRequest(models.Model):
 
     def action_view_purchase_request_line(self):
         action = self.env.ref(
-            "purchase_request.purchase_request_line_form_action"
+            "kin_material_request.purchase_request_line_form_action"
         ).read()[0]
         lines = self.mapped("line_ids")
         if len(lines) > 1:
             action["domain"] = [("id", "in", lines.ids)]
         elif lines:
             action["views"] = [
-                (self.env.ref("purchase_request.purchase_request_line_form").id, "form")
+                (self.env.ref("kin_material_request.purchase_request_line_form").id, "form")
             ]
             action["res_id"] = lines.ids[0]
         return action

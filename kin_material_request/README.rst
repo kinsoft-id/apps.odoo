@@ -1,5 +1,5 @@
 ================
-Material Request
+Purchase Request
 ================
 
 .. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -46,8 +46,8 @@ A line of a request contains the quantity and requested date of the
 material to be supplied or the quantity of the service to be performed. You
 can indicate the service specifications if needed.
 
-Once request is approved go to the Material Request Lines from the menu entry
-'Material Requests', and also from the 'Purchase' menu.
+Once request is approved go to the Purchase Request Lines from the menu entry
+'Purchase Requests', and also from the 'Purchase' menu.
 
 Select the lines that you wish to initiate the RFQ for, then go to 'More'
 and press 'Create RFQ'.
@@ -75,19 +75,19 @@ To configure the product follow this steps:
 
 #. Go to a product form.
 #. Go to *Inventory* tab.
-#. Check the box *Material Request* along with the route *Buy*.
+#. Check the box *Purchase Request* along with the route *Buy*.
 
 With this configuration, whenever a procurement order is created and the supply
-rule selected is 'Buy' the application will create a Material Request instead
+rule selected is 'Buy' the application will create a Purchase Request instead
 of a Purchase Order.
 
 Usage
 =====
 
-Material requests are accessible through a new menu entry 'Purchase
+Purchase requests are accessible through a new menu entry 'Purchase
 Requests', and also from the 'Purchase' menu.
 
-Users can access the list of Material Requests or Material Request Lines.
+Users can access the list of Purchase Requests or Purchase Request Lines.
 
 It is possible to filter requests by its approval status.
 
@@ -108,12 +108,10 @@ Authors
 ~~~~~~~
 
 * ForgeFlow
-* Kikin Kusumah
 
 Contributors
 ~~~~~~~~~~~~
 
-* Kikin Kusumah <kinsoft.indonesia@gmail.com>
 * Jordi Ballester Alomar <jordi.ballester@forgeflow.com>
 * Jonathan Nemry <jonathan.nemry@acsone.eu>
 * Aaron Henriquez <ahenriquez@forgeflow.com>

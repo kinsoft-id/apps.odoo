@@ -3,13 +3,12 @@
 
 {
     "name": "Material Request",
-    "author": "Kinsoft Indonesia, Kikin Kusumah, ForgeFlow, Odoo Community Association (OCA)",
+    "author": "ForgeFlow, Odoo Community Association (OCA), Kinsoft Indonesia, Kikin Kusumah",
     "version": "13.0.2.1.1",
     "summary": "Use this module to have notification of requirements of "
     "materials and/or external services and keep track of such "
     "requirements.",
     "category": "Purchase Management",
-    "website": "kinsoft.id",
     "depends": ["purchase", "product", "purchase_stock"],
     "data": [
         "security/purchase_request.xml",
